@@ -14,9 +14,8 @@ int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 	putchar(ch);
-	if (ch =='z'){
-	   putchar ('\n');
-}
+if (ch == 'z')
+putchar ('\n');
 }
 return (0);
 }
