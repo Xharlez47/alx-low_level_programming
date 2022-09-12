@@ -15,9 +15,7 @@ int cj;
 for (xh = 'a'; xh <= 'z'; xh++)
 	putchar(xh);
 for (cj = 'A'; cj <= 'Z'; cj++)
-{
 	putchar(cj);
-	putchar('\n');
-}
+putchar('\n');
 return (0);
 }
