@@ -17,6 +17,8 @@ for (xh = 'a'; xh <= 'z'; xh++)
 for (cj = 'A'; cj <= 'Z'; cj++)
 	putchar(cj);
 if (cj == 'Z')
+{
 	putchar('\n');
+}
 return (0);
 }
