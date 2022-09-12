@@ -16,9 +16,6 @@ for (xh = 'a'; xh <= 'z'; xh++)
 	putchar(xh);
 for (cj = 'A'; cj <= 'Z'; cj++)
 	putchar(cj);
-if (cj == 'Z')
-{
 	putchar('\n');
-}
 return (0);
 }
