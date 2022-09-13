@@ -6,7 +6,8 @@
  * that prints " Prototype: void print_alphabet(void)"
  * Return: 0
  */
-int main(void)
+void print_alphabet(void);
+int main (void)
 {
 	int ab;
 
