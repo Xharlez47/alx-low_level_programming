@@ -8,7 +8,7 @@
  * @c: the integer value it receives
  * Return: 1  (if true) or 0 (if false)
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int za;
 
