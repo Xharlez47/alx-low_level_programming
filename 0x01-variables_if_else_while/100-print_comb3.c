@@ -13,11 +13,11 @@ int main(void)
 int x, y;
 while ('x' != 'y')
 {
-	for (x = 0; x <= 8; x++)
-	for (y = 1; y <= 9; y++)
+	for (x = '0'; x <= '8'; x++)
 		putchar(x);
-	putchar(y);
-if ('x' != 8 && 'y' != '9')
+	for (y = '1'; y <= '9'; y++)
+		putchar(y);
+if ('x' != '8' && 'y' != '9')
 {
 	putchar(',');
 putchar(' ');
