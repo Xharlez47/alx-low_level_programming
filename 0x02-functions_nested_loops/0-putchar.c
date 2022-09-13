@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - A program that prints _putchar, followed by a new line.
  *
  * Description: Using function and nested loops
- * that prints "_putchar, followed by a new line."
+ * that prints " _putchar, followed by a new line"
  * Return: 0
  */
 int main(void)
 {
-int x;
+	int x;
 
-if (x <= 9)
+	if (x <= 9)
 {
 	putchar('_');
 	putchar('p');
@@ -20,8 +20,6 @@ if (x <= 9)
 	putchar('h');
 	putchar('a');
 	putchar('r');
-	getchar();
 }
-putchar('\n');
 return (0);
 }
