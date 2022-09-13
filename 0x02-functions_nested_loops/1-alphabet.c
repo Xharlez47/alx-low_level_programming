@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Description: Using function and nested loops
- * that prints " Prototype: void print_alphabet(void)"
+ * Description: Using function and nested loops for a program
+ * that "print_alphabet in lowercase, followed by a new line"
+ * Return: void
  */
 void print_alphabet(void)
 {
