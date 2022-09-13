@@ -11,12 +11,12 @@
 int main(void)
 {
 int x, y;
-for (x = 0; x <= 9; x++)
+while (x != y)
 {
-for (y = 1; y <= 8; y++)
-	while (x != y)
+	for (x = 0; x <= 8; x++)
+	for (y = 1; y <= 9; y++)
 		putchar(x);
-			putchar(y);
+			putchar (y);
 }
 return (0);
 }
