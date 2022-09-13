@@ -11,12 +11,17 @@
 int main(void)
 {
 int x, y;
-while (x != y)
+while ('x' != 'y')
 {
 	for (x = 0; x <= 8; x++)
 	for (y = 1; y <= 9; y++)
 		putchar(x);
-			putchar (y);
+	putchar(y);
+if ('x' != 8 && 'y' != '9')
+{
+	putchar(',');
+putchar(' ');
+}
 }
 return (0);
 }
