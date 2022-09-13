@@ -5,21 +5,22 @@
  *
  * Description: Using function and nested loops for a program
  * that "computes the absolute value of an integer"
+ * @a: is an integer
  * Return: int
  */
-int _abs(int)
+int _abs(int a)
 {
 
-if (n > 0)
+if (a > 0)
 {
-	return (n);
+	return (a);
 }
-else if (n == 0)
+else if (a == 0)
 {
-	return (n);
+	return (a);
 }
 else
 {
-	return (-n);
+	return (-a);
 }
 }
