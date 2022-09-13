@@ -16,9 +16,7 @@ for (x = '0'; x <= '9'; x++)
 	putchar(x);
 	putchar(',');
 	putchar(' ');
+	getchar();
 }
-if (x == '9')
-putchar('\n');
-getchar();
 return (0);
 }
