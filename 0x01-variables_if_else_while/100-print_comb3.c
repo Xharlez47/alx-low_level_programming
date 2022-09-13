@@ -2,26 +2,28 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints all the numbers of base 16 in lowercase
+ * main - A program prints all possible different combinations of two digits
  *
  * Description: Using the main function
- * that prints " prints all the numbers of base 16 in lowercase"
+ * that prints "all possible different combinations of two digits"
  * Return: 0
  */
 int main(void)
 {
 int x, y;
-while ('x' != 'y')
+for (x = 0; x <= 7; x++)
 {
-	for (x = '0'; x <= '8'; x++)
-		putchar(x);
-	for (y = '1'; y <= '9'; y++)
-		putchar(y);
-if ('x' != '8' && 'y' != '9')
+	for (y = 'x' + 1; y <= 8; y++)
+{
+		putchar((x % 10) + '0');
+			putchar((y % 10) + '0');
+	if (x != 8 && y != 9)
 {
 	putchar(',');
-putchar(' ');
+		putchar(' ');
 }
 }
+}
+putchar('\n');
 return (0);
 }

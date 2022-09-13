@@ -19,7 +19,8 @@ if (x != '9')
 	putchar(',');
 	putchar(' ');
 }
-}
+if (x == '9')
 putchar('\n');
+}
 return (0);
 }
