@@ -14,14 +14,12 @@ int x, y;
 for (x = 0; x <= 7; x++)
 {
 	for (y = 'x' + 1; y <= 8; y++)
-{
 		putchar((x % 10) + '0');
 			putchar((y % 10) + '0');
 	if (x != 8 && y != 9)
 {
 	putchar(',');
 		putchar(' ');
-}
 }
 }
 putchar('\n');
