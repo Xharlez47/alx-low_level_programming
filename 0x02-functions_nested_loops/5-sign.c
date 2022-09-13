@@ -10,23 +10,18 @@
  */
 int print_sign(int n)
 {
-	int x = 0;
-	int z;
 
-for (z = 1; z > 10; z++)
+if (n > 0)
 {
-	if (n == z)
-{
-		_putchar('+');
+	_putchar('+');
 	return (1);
 }
-}
-if (n == x)
+else if (n == 0)
 {
 	_putchar('0');
 	return (0);
 }
-else 
+else
 {
 	_putchar('-');
 	return (-1);
