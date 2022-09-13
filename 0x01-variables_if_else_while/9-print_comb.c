@@ -19,6 +19,7 @@ if (x != '9')
 	putchar(',');
 }
 	putchar(' ');
+	getchar();
 }
 return (0);
 }
