@@ -11,18 +11,9 @@
 int print_sign(int n)
 {
 	int x = 0;
-	int y;
 	int z;
 
-for (y < 0; y != 0; y--)
-{
-	if (n == y)
-{
-	_putchar('-');
-	return (-1);
-}
-}
-for (z > 0; z > 10; z++)
+for (z = 1; z > 10; z++)
 {
 	if (n == z)
 {
@@ -34,5 +25,10 @@ if (n == x)
 {
 	_putchar('0');
 	return (0);
+}
+else 
+{
+	_putchar('-');
+	return (-1);
 }
 }
