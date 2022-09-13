@@ -17,9 +17,10 @@ for (x = '0'; x <= '9'; x++)
 if (x != '9')
 {
 	putchar(',');
-}
 	putchar(' ');
-	getchar();
+if (x == '9')
+	putchar('$');
+}
 }
 return (0);
 }
