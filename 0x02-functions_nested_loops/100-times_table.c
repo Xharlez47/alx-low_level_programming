@@ -14,7 +14,7 @@ void print_times_table(int n)
 	int c;
 	int d;
 
-	for (n = 0; n < 16; n++)
+	if (n >= 0 && n < 16)
 {
 	for (b = 0; b <= n; b++)
 {
@@ -22,7 +22,7 @@ void print_times_table(int n)
 {
 	d = b * c;
 {
-	if (b <= n)
+	if (b == n)
 {
 	putchar(d);
 	if (d != 225)
