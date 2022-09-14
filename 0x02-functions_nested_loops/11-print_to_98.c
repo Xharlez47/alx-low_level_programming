@@ -27,7 +27,7 @@ else if (n >= 98)
 for (y = n; y >= 98; y--)
 {
 if (y != 98)
-printf("%d", y);
+printf("%d, ", y);
 else if (y == 98)
 printf("%d\n", y);
 }
