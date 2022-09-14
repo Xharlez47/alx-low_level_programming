@@ -22,10 +22,18 @@ void print_times_table(int n)
 {
 	d = b * c;
 	b = b * 1;
-{
-	if (b == n)
+	if (b == 0)
 {
 	putchar(d);
+}
+	else if (d <= 10 && b != 0)
+{
+	putchar(d);
+}
+	else if (d < 10 && d < 100)
+{
+	putchar(d);
+}
 	if (d != 225)
 {
 	putchar(',');
