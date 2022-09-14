@@ -9,17 +9,22 @@
  */
 void jack_bauer(void)
 {
-	int x;
-	int y;
+int x, y;
 
-	for (x = 00; x <= 23; x++)
+x = 0;
+while (x < 24)
 {
-	putchar(x);
-	for (y = 00; y <= 59; y++)
+y = 0;
+while (y < 60}
 {
-			putchar(':');
-		putchar(y);
-		putchar('\n');
+		_putchar((x / 10) + '0');
+		_putchar((x % 10) + '0');
+		_putchar(':');
+		_putchar((y / 10) + '0');
+		_putchar((y % 10) + '0');
+		_putchar('\n');
+		y++;
 }
+x++;
 }
 }
