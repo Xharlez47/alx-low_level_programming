@@ -12,17 +12,20 @@ void print_times_table(int n)
 {
 	int b;
 	int c;
-	
-	for (n = 0; n <= 15; n++)
+	int d;
+
+	if (n >= 0 && n <= 15)
+{	
+	for (b = 0; b <= n; b++)
 {
-	for (b = 0; b <= 15; b++)
+	for (c = 0; c <= n; c++)
 {
-	while (c == b * n)
+	d = b * c;
 {
 	if (b <= n)
 {
-	putchar(c);
-	if (c != 225)
+	putchar(d);
+	if (d != 225)
 {
 	putchar(',');
 	putchar(' ');
@@ -30,6 +33,7 @@ void print_times_table(int n)
 }
 }
 _putchar('\n');
+}
 }
 }
 }
