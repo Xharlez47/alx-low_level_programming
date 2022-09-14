@@ -5,7 +5,7 @@
  *
  * Description: Using function and nested loops for a program
  * that "prints the first 98 Fibonacci numbers"
- * Return: 0
+ * Return: void
  */
 int main(void)
 {
@@ -25,7 +25,7 @@ f = c / 1000000000;
 g = c % 1000000000;
 for (a = 92; a < 99; ++a)
 {
-printf(", %lu", f + (k2 / 1000000000));
+printf(", %lu", f + (g / 1000000000));
 printf("%lu", k2 % 1000000000);
 f = f + d;
 d = f - d;
