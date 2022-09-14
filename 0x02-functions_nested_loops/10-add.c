@@ -9,12 +9,10 @@
  * @b: is an integer
  * Return: sum
  */
-int add(int a, int b);
+int add(int a, int b)
 {
 	int sum;
 
-	if (sum = a + b)
-{
-		return (sum);
-}
+	sum = a + b;
+	return (sum);
 }
