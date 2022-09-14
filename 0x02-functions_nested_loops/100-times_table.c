@@ -25,7 +25,7 @@ if (b == 0)
 {
 _putchar(d);
 }
-else if (k < 10 && b != 0)
+else if (d < 10 && b != 0)
 {
 _putchar(',');
 _putchar(' ');
