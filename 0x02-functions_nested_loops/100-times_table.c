@@ -21,6 +21,7 @@ void print_times_table(int n)
 	for (c = 0; c <= n; c++)
 {
 	d = b * c;
+	b >= c;
 {
 	if (b == n)
 {
