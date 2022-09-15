@@ -5,18 +5,16 @@
  * _isupper - checks if an input is a uppercase letter
  *
  * @c: letter
- * Retun: 1
+ * Return: 1
  */
 int _isupper(int c)
 {
-	c = 'A';
-
-if (isupper(c))
-{
-	printf("%c: %d\n, c");
-}
-else
-{
-	printf("%c: %d\n, c");
-}
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
