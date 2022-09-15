@@ -2,17 +2,12 @@
 
 /**
  * print_times_table - Entry point
- *
- * Description: Using function and nested loops for a program
- * that "prints the n times table, starting with 0"
+ * Description: program that prints the n times table, starting with 0
  * @n: is an integer
- * Return: int
  */
 void print_times_table(int n)
 {
-	int b;
-	int c;
-	int d;
+	int b, c, d;
 
 if (n >= 0 && n <= 15)
 {
@@ -29,11 +24,13 @@ else if (d < 10 && b != 0)
 {
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
 _putchar(d + '0');
 }
 else if (d >= 10 && d < 100)
 {
 _putchar(',');
+_putchar(' ');
 _putchar(' ');
 _putchar((d / 10) + '0');
 _putchar((d % 10) + '0');
