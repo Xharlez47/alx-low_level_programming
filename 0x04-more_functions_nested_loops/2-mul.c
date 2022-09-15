@@ -6,16 +6,19 @@
  *
  * @a: integer
  * @b: integer
- * Return: 1
+ * Return: 0
  */
 int mul(int a, int b)
 {
 	int multi;
 
-	if (a >= 48 && a <= 57 && b >= 48 && b <= 57)
+	if (a <= '9')
+	{
+	if (b <= '9')
 	{
 		multi = a * b;
 		putchar(multi);
 	}
-		return (1);
+	return (0);
+	}
 }
