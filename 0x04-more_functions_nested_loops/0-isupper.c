@@ -13,10 +13,10 @@ int _isupper(int c)
 
 if (isupper(c))
 {
-	printf("%c: 1\n, c");
+	printf("%c: %d\n, c");
 }
 else
 {
-	printf("%c: 0\n, c");
+	printf("%c: %d\n, c");
 }
 }
