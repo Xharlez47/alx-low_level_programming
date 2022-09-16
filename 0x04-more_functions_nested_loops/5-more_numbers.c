@@ -15,7 +15,7 @@ for (n = 0; n < 10; n++)
 {
 	for (c = 0; c <= 14; c++)
 {
-	_putchar(c + '48');
+	_putchar(c[n]);
 }
 }
 _putchar('\n');
