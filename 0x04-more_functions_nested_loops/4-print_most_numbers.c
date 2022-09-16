@@ -16,12 +16,9 @@ while (a < 10)
 {
 if (a != 2 && a != 4)
 {
-	_putchar(a);
+	_putchar('0' + a);
 }
 a++;
 }
-if (a == 9)
-{
 	_putchar('\n');
-}
 }

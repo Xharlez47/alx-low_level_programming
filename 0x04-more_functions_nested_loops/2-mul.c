@@ -7,16 +7,14 @@
  *
  * @a: integer
  * @b: integer
- * Return: 0
+ * Return: multi
  */
 
 int mul(int a, int b)
 {
 int multi;
 
-	if (a >= 0 && a < 10 && b >= 0 && b < 10)
-{
-	multi = a * b;
-}
-	printf("%d", multi);
+multi = a * b;
+
+return (multi)
 }
