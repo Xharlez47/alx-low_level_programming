@@ -13,10 +13,11 @@
 int mul(int a, int b)
 {
 	int multi;
-
-	printf("enter the two numbers");
-	Scanf("%d %d",&a ,&b);
+	
+	if (a >= 0 && a < 10 && b >= 0 && b < 10)
+{
 	multi = a * b
 	printf("%d", multi);
 	getch();
+}
 }
