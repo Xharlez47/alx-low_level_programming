@@ -5,8 +5,8 @@
 /**
  * mul - multiples two integers
  *
- * @a: integer
- * @b: integer
+ * @a: first integer
+ * @b: second integer
  * Return: multi
  */
 
@@ -16,5 +16,5 @@ int multi;
 
 multi = a * b;
 
-return (multi)
+return (multi);
 }
