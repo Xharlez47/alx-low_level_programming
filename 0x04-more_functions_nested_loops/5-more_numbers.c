@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers form 0 to 9
+ * print_numbers - print numbers form 0 to 14 (x10)
  *
  * Return: void
  */
@@ -24,6 +24,6 @@ for (b = 0; b < 10; b++)
 	_putchar(a % 10 + '0');
 a++;
 }
-_putchar ('\n');
+_putchar('\n');
 }
 }
