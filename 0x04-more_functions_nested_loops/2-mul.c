@@ -12,13 +12,13 @@ int mul(int a, int b)
 {
 	int multi;
 
-	if (a >= 58 && b <= 57)
+	while (a >= 58 && b <= 57)
 	{
-	else if (b >= 58 &&bc <= 57)
+	while (b >= 58 &&bc <= 57)
 	{
 		multi = a * b;
 	}
-		putchar(multi);
+		_putchar(multi);
 	}
 	return (0);
 }
