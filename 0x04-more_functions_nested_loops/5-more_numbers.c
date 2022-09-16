@@ -9,20 +9,23 @@
 
 void print_numbers(void)
 {
-	int aa, bb, cc;
+char n, c;
 
-for (bb = 1; bb < 10; bb++)
+int aa = 0;
+
+while (aa < 10)
 {
-	for (cc = 0; c <= 14; ++cc)
+for (n = 0; n <= 14; n++)
 {
-	aa = cc;
-	if (cc > 9)
+c = n;
+if (n > 9)
 {
-	_putchar(1 + 48);
-	aa = cc % 10;
+	_putchar('1');
+	c = n % 10;
 }
-_putchar(aa + 48);
+_putchar('0' + c);
 }
 _putchar('\n');
+aa++;
 }
 }
