@@ -14,11 +14,11 @@ for (a = 0; a <= 9; a++)
 {
 	if (a != 2 && a != 4)
 {
-	putchar(a);
+	_putchar(a);
 }
 }
 	if (a == 9)
 {
-	putchar('\n');
+	_putchar('\n');
 }
 }
