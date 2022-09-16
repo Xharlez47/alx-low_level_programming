@@ -9,20 +9,19 @@
 
 void print_numbers(void)
 {
-	int a;
-	int b;
+	int a, b, c;
 
 for (b = 0; b < 10; b++)
 {
-	a = 0;
-	while (a <= 14)
+	for (c = 0; c <= 14; ++c)
 {
-	if (a >= 10)
+	a = c;
+	if (c > 9)
 {
-	_putchar(a / 10 + '0');
+	_putchar(1 + 48);
+	a = c % 10;
 }
-	_putchar(a % 10 + '0');
-a++;
+_putchar(num + 48);
 }
 _putchar('\n');
 }
