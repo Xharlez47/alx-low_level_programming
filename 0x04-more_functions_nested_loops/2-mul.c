@@ -14,10 +14,9 @@ int mul(int a, int b)
 {
 	int multi;
 
-	while (a >= 48 && a <= 57 && b >= 48 && b <= 57)
-	{
-		multi = a * b;
-		_putchar(multi);
-	}
-	return (0);
+	printf("enter the two numbers");
+	Scanf("%d %d",&a ,&b);
+	multi = a * b
+	printf("%d", multi);
+	getch();
 }
