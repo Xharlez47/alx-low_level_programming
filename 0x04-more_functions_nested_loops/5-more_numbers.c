@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * print_numbers - print numbers form 0 to 9
@@ -13,14 +12,18 @@ void print_numbers(void)
 	int a;
 	int b;
 
-for (a = 0; a <= 14; a++)
+for (b = 0; b < 10; b++)
 {
-	b = 0;
-	while (b <= 10)
+	a = 0;
+	while (a <= 14)
 {
-	_putchar('0' + a);
+	if (a >= 10)
+{
+	_putchar(a / 10 + '0');
 }
-b++;
+	_putchar(a % 10 + '0');
+a++;
 }
 _putchar ('\n');
+}
 }
