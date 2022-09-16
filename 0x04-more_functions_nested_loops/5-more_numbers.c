@@ -21,7 +21,7 @@ for (b = 0; b < 10; b++)
 	_putchar(1 + 48);
 	a = c % 10;
 }
-_putchar(num + 48);
+_putchar(a + 48);
 }
 _putchar('\n');
 }
