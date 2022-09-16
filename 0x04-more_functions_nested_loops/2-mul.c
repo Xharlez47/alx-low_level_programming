@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <ctype.h>
+
 /**
  * mul - multiples two integers
  *
@@ -8,6 +9,7 @@
  * @b: integer
  * Return: 0
  */
+
 int mul(int a, int b)
 {
 	int multi;
@@ -16,7 +18,6 @@ int mul(int a, int b)
 	{
 		multi = a * b;
 		_putchar(multi);
-		_putchar('\n');
 	}
 	return (0);
 }
