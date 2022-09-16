@@ -15,11 +15,8 @@ for (a = 0; a < 10; a++)
 	if (a != 2 && a != 4)
 {
 	_putchar(a);
-}
-}
-	if (a == 9)
-{
 	_putchar('\n');
+}
 }
 return (0);
 }

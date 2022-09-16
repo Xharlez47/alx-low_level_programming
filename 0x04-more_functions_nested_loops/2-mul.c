@@ -16,6 +16,7 @@ int mul(int a, int b)
 	{
 		multi = a * b;
 		_putchar(multi);
+		_putchar('\n');
 	}
 	return (0);
 }
