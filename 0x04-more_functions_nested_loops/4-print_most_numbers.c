@@ -10,14 +10,18 @@
 
 void print_most_numbers(void)
 {
-	int a;
+	int a = 0;
 
-for (a = 0; a < 10; a++)
+while (a < 10)
 {
-	while (a != 2 && a != 4)
+if (a != 2 && a != 4)
 {
 	_putchar(a);
-	_putchar('\n');
 }
+a++;
+}
+if (a == 9)
+{
+	_putchar('\n');
 }
 }
