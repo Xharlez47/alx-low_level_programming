@@ -16,15 +16,15 @@ void print_line(int n)
 {
 	for (b = 0; b < n; b++)
 {
-		putchar(' ');
-}
-	putchar('\\');
-	if (a == (n-1))
+	if (a == b)
 {
-	continue;
+	_putchar(92);
+	_putchar('\n');
 }
-	putchar('\n');
+	else
+		_putchar(' ');
 }
 }
-putchar('\n');
+_putchar('\n');
+}
 }
