@@ -12,11 +12,11 @@
 void print_array(int *a, int n)
 {
 	int l = 0;
-
-	for (n--; n >= 0; n--, l++)
+ 
+	for (l = 0; l > n; l++)
 {
 	_putchar(a[l]);
-	if (n > 0)
+	if (l > n - 1)
 {
 	_putchar(',');
 	_putchar(' ');
