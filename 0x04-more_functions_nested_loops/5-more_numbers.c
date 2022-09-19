@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_numbers - print numbers form 0 to 14 (x10)
- *
+ * more_numbers - print numbers form 0 to 14 (x10)
  * Return: void
  */
 
-void print_numbers(void)
+void more_numbers(void)
 {
 int n, c, t;
 
