@@ -9,14 +9,20 @@
 
 void print_numbers(void)
 {
-int n, c;
+int n, c, t;
 
-for (n = 0; n < 10; n++)
+for (t = 0; t <= 10; ++t)
 {
-	for (c = 0; c <= 14; c++)
+	for (c = 0; c <= 14 ++c)
 {
-	_putchar(c[n]);
+	n = c;
+	if (c > 9)
+{
+	_putchar(1 + 48);
+	n = c % 10;
 }
+	_putchar(n + 48);
 }
 _putchar('\n');
+}
 }
