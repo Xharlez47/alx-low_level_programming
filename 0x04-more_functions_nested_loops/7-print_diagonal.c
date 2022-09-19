@@ -4,7 +4,7 @@
 /**
  * print_line - function that draws a straight line in the terminal
  * @n: number of lines
- * Return: n
+ * Return: void
  */
 void print_line(int n)
 {
@@ -16,13 +16,13 @@ void print_line(int n)
 {
 	for (b = 0; b < n; b++)
 {
-	if (a == b)
+	if (a != b)
 {
-	_putchar(92);
-	_putchar('\n');
+	_putchar(' ');
 }
 	else
-		_putchar(' ');
+		_putchar(92);
+		_putchar('\n');
 }
 }
 _putchar('\n');
