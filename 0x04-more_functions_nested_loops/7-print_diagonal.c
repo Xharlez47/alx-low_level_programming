@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_line - function that draws a straight line in the terminal
+ * print_line - function that draws a diagonal line in the terminal
  * @n: number of lines
  * Return: void
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int a, b;
 
