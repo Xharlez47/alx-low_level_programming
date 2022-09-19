@@ -10,10 +10,14 @@ void print_square(int size)
 {
 	int r, c;
 
-for (r = 1; r <= size; ++r)
+	if (size > 0)
 {
-for (c = 1; c <= size; ++c)
+for (r = 1; r < size; r++)
+{
+for (c = 1; c < size; c++)
 	_putchar(35);
+
+}
 	_putchar('\n');
 }
 }
