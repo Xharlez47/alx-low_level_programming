@@ -13,7 +13,7 @@ int n, c, t;
 
 for (t = 1; t <= 10; ++t)
 {
-	for (c = 0; c <= 14 ++c)
+	for (c = 0; c <= 14; ++c)
 {
 	n = c;
 	if (c > 9)
