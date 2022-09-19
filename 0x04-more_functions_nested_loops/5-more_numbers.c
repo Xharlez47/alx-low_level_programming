@@ -3,6 +3,7 @@
 
 /**
  * more_numbers - print numbers form 0 to 14 (x10)
+ * @void: void
  * Return: void
  */
 
