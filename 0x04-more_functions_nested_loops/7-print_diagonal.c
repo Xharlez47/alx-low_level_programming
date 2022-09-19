@@ -10,7 +10,8 @@ void print_line(int n)
 {
 	int a, b;
 
-	n = 12;
+	if (n > 0)
+{
 	for (a = 0; a < n; a++)
 {
 	for (b = 0; b < n; b++)
@@ -21,9 +22,6 @@ void print_line(int n)
 }
 	else
 		_putchar(' ');
-	if (n <= 0)
-{
-		_putchar('\n');
 }
 }
 	_putchar('\n');
