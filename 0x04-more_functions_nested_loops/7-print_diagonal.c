@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_line - function that draws a diagonal line in the terminal
- * @n: number of lines
+ * print_diagonal - function that draws a diagonal line in the terminal
+ * @n:is the number of times the character \ should be printed
  * Return: void
  */
 void print_diagonal(int n)
