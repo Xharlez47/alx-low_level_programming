@@ -9,19 +9,17 @@
 int _atoi(char *s)
 {
 	int i = 1;
-	int j = 0, k, num;
+	int j = 0;
 
-	for (num = 0; !(s[num] >= 48 && s[num] <= 57); num++)
+	while (s[0] != '\0')
 	{
-		if (s[num] == '-')
-		{
+		if (s[0] == '-')
 		i *= -1;
-		}
-	}
-	for (k = num; s[k] >= 48 && s[k] <= 57; k++)
-	{
-		j *= 10;
-		j += (s[k] - 48);
+		else if (s[0] >= '0' && s[0] <= '9')
+		j = (j * 10) + (s[0] - '0') * i;
+		else if (j)
+			break;
+		s++;
 	}
 	return (j);
 }
