@@ -4,27 +4,25 @@
 /**
  * print_square - print a square using the character #
  * @size: size of the square
- * Return: 0
+ * Return: void
  */
 void print_square(int size)
 {
 	int r, c;
 
-	if (size > 0)
-{
-for (r = 1; r < size; r++)
-{
-for (c = 1; c < (size - 1); c++)
-{
-	_putchar(35);
-
-}
-	_putchar(35);
-	_putchar('\n');
-}
-}
-else
-{
-	_putchar('\n');
-}
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+		else
+		{
+		for (r = 0; r < size; r++)
+		{
+			for (c = 0; c < size; c++)
+			{
+				_putchar(35);
+			}
+		_putchar('\n');
+		}
+	}
 }
