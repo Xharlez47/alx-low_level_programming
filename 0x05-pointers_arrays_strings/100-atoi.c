@@ -12,16 +12,16 @@ int _atoi(char *s)
 	int j = 0, k, num;
 
 	for (num = 0; !(s[num] >= 48 && s[num] <= 57); num++)
-		{
+	{
 		if (s[num] == '-')
 		{
 		i *= -1;
 		}
-		}
-		for (k = num; s[k] >= 48 && s[k] <= 57; k++)
-		{
+	}
+	for (k = num; s[k] >= 48 && s[k] <= 57; k++)
+	{
 		j *= 10;
 		j += (s[k] - 48);
-		}
-		return (i * j);
+	}
+	return (j);
 }
