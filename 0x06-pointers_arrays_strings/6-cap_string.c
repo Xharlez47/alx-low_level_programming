@@ -2,18 +2,19 @@
 
 /**
  * cap_string - a function that capitalizes all words of a string
- * @s: string
- * Return: string in capitalized words
+ * @s: string to capitalize
+ * Return: s (sting in capital letters)
  */
 
 char *cap_string(char *s)
 {
 	int i = 0;
 
-	while (s[++i])
+	while (s[i++])
 	{
 		while (!(s[i] >= 'a' && s[i] <= 'z'))
 		i++;
+
 		if (s[i - 1] == ' ' ||
 			s[i - 1] == '\t' ||
 			s[i - 1] == '\n' ||
