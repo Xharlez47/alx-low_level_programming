@@ -5,17 +5,18 @@
  * @dest: destination string
  * @src: source string, gets appended to *dest
  * Description: appending one string to another
- * Return: pointer to dest
+ * Return: pointer to @dst
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int index  = 0;
-	int len = 0;
+	int i, len;
 
-	while (dest[index++])
-		len++;
-		for (index = 0; src[index]; index++)
-		dest[len++] = src[index];
+	len = string_length(dest);
+	for (i = 0; i < len && src[i] != '\0'; i++)
+	{
+		dest[len + i] = src[i];
+	}
+	dest[len + i] = '\0';
 	return (dest);
 }
