@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strcmp - Compare two strings
@@ -17,7 +17,7 @@ int _strcmp(char *s1, char *s2)
 			if (s1[index] != s2[index])
 			{
 				l = ((s1[index] - '\0') - (s2[index] - '\0'));
-					break;
+				break;
 			}
 			index++;
 		}
