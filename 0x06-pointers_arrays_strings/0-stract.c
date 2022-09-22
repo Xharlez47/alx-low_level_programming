@@ -10,8 +10,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char first_string = 0;
-	char second_string = 0;
+	int first_string = 0;
+	int second_string = 0;
 
 	while (dest[first_string] != '\0')
 		first_string++;
