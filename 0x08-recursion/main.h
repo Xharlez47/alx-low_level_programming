@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int _putchar(char);
 void _puts_recursion(char *s);
