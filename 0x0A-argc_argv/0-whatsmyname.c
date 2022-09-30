@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	int i;
 
@@ -15,6 +15,5 @@ int main(int argc, char *argv[])
 	{
 	puts(argv[i]);
 	}
-	_putchar('\n');
 	return (0);
 }
