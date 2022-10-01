@@ -3,6 +3,7 @@
 /**
  * main - a program that prints the number of arguments passed into it
  * @argc: number of the arguments on the command line
+ * @argv: the position of commands
  * Return: 0
  */
 
