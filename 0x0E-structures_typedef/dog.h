@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct dog: a dog
+ * struct dog - a dog
  * @name: dog's name
  * @age: dog's age
  * @owner: owner's name
@@ -13,7 +13,7 @@
  * Description: A type name struct
  */
 struct dog
-{ 
+{
 	char *name;
 	float age;
 	char *owner;
