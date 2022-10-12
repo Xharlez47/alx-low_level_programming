@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		printf("%02x%c",
 		(unsigned char)*((char *)p + i), i < n - 1 ? ' ' : '\n');
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		exit(1);
