@@ -6,7 +6,7 @@
  * @n:  the number of integers passed to the function
  * Return: void
  */
-void print_strings(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
@@ -15,6 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...);
 	va_start(ap, n);
 	for (i = 0; i < (n - 1) && n != 0; i++)
 	{
+		str = va_arg(ap, char *);
 		if (!separator)
 			printf("%s", str ? str : "(nil)");
 		else
