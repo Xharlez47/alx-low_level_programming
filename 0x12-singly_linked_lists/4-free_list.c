@@ -8,8 +8,6 @@
 
 void free_list(list_t *head)
 {
-	unsigned int index = 0;
-
 	while(head)
 	head = head->next;
 	free(head->str);
