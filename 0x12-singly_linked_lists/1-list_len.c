@@ -9,7 +9,7 @@ size_t list_len(const list_t *h)
 {
 	unsigned int index;
 
-	for (index = 0; index < h->len; index++)
+	for (index = 0; h; index++)
 		h = h->next;
 	return (index);
 }
