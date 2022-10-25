@@ -11,10 +11,10 @@ int pop_listint(listint_t **head)
 	listint_t *todel;
 	int data;
 
-	if (!*head)
+	if (*head == NULL)
 		return (0);
 	todel = *head;
-	*head = head->next;
+	*head = todel->next;
 	data = todel->n;
 	free(todel);
 	return (data);
