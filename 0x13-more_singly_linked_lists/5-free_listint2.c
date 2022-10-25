@@ -3,18 +3,18 @@
 /**
  * free_listint -  function that frees a list_t list
  * @head: double pointer to the list_t list
- * Return: the address of the new element, or NULL if it fails
  */
 
 void free_listint2(listint_t *head)
 {
 	list_t *tmp;
 
-	while (head)
+	if (!head)
+		return;
+	while (!*head)
 	{
 		tmp = head->next;
-		free(head->n);
-		free(head);
-		head = NULL;
+		free(*head);
+		*head = tmp ;
 	}
 }

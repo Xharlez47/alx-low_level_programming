@@ -11,16 +11,9 @@ stint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	list_t *temp, *temp2;
 
-	if (n == NULL)
-		return (NULL);
 	temp = malloc(sizeof(list_t));
 	if (temp == NULL)
 		return (NULL);
-	if (temp->n == NULL)
-	{
-		free(temp);
-			return (NULL);
-	}
 	temp->n = n;
 	temp->next = NULL;
 	if (*head == NULL)
